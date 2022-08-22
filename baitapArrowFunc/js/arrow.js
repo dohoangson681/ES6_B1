@@ -7,6 +7,7 @@ let bgBtnColors = () => {
     for(let i = 0 ; i < btnColors.length ; i++){
         let id = btnColors[i].id ; 
         btnColors[i].style.backgroundColor = `#${id}` ; 
+        
     } 
 }
 bgBtnColors();
